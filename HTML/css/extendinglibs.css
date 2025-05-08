@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* v v v v v v v
+	extending video-js 
+*/
+.vjs-default-skin .vjs-big-play-button /* center the play button */
+{
+	top: 50%;
+	left: 50%;
+	margin-left: -64px;
+	margin-top: -42px;
+}
+.vjs-default-skin .vjs-volume-handle:before {
+  font-size: 0.9em;
+  top: -0.2em;
+  left: -0.4em;
+  width: 1em;
+  height: 1em;
+}
+
+.vjs-default-skin { 
+
+  background-image:url(../../graphics/common/ico_video.png);
+
+  color: #dedde4 
+}
+
+
+.vjs-play-progress, .vjs-volume-level { background-color: #7264ab }
+.vjs-control-bar, .vjs-big-play-button { background: rgba(114,100,171,0.7) }
+.vjs-slider { background: rgba(114,100,171,0.2333333333333333) }
+.vjs-control-bar { font-size: 100% }
+.vjs-fullscreen-control {display: none;}
+
+.video-js {
+  background-color: transparent;
+  }			
+/* 
+	extending video-js 
+^ ^ ^ ^ ^ ^ ^ */
+
+/* Placement of Control Items eference */
+/*
+ul.vjs-controls > li.vjs-play-control       { width: 25px; left: 5px; }
+ul.vjs-controls > li.vjs-progress-control   { width: 100%; position: relative; }
+ul.vjs-controls > li.vjs-time-control       { width: 75px; right: 90px; }
+ul.vjs-controls > li.vjs-volume-control     { width: 50px; right: 35px; }
+ul.vjs-controls > li.vjs-fullscreen-control { width: 25px; right: 5px; }
+*/
